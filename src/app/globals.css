@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -65,6 +66,7 @@ background-size: cover;
 }
 .left h1{
   font-size: 50px;
+  font-family: 'Oooh Baby', cursive;
 }
 .left h2{
   background-color: #FF6A3D;
@@ -80,7 +82,7 @@ background-size: cover;
 border: none;
   outline: none;
   padding: 3px;
-  color: #fff;
+  color: #FF6A3D;
   background-color: #1A2238;
   font-family: "Gilroy";
   margin-right: 40vmax;
@@ -102,6 +104,10 @@ border: none;
 }
 .logo{
   color: #1A2238;
+  /* font-family: 'Oooh Baby', cursive; */
+}
+.develop{
+  color: #FF6A3D;
 }
 .my-pic{
   width: 22vmax;
@@ -112,13 +118,9 @@ border: none;
 .my-name{
   color: #FF6A3D;
 }
-.resume{
+.left button a{
   text-decoration: none;
-  color:#FF6A3D;
-}
-.resume:hover{
-  background-color: #FF6A3D;
-  color: #1A2238;
+  color: #FF6A3D;
 }
 /* .Loader img{
   position: absolute;
@@ -203,6 +205,7 @@ border: none;
     gap: 25px;
     padding-top: 5vmax;
     font-weight: 900;
+    font-family: 'Oooh Baby', cursive;
   }
   .responsive-menu a{
     color: #FF6A3D;

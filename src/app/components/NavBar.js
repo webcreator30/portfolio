@@ -22,7 +22,7 @@ setTimeout(() => {
       <nav className='main-nav'>
       
         <div className="logo">
-            <h2>MERN DEVELOPER</h2>
+            <h2>MERN  <span className='develop' >DEVELOPER</span> </h2>
         </div>
         <div className={ShowNavBar ? "menu-link responsive-menu":"menu-link"}>
             

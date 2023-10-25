@@ -8,7 +8,7 @@ const Home = () => {
           <div className="left">
           <h1>Hey Myself , <span className='my-name' >Saharsh</span> a passionate Full Stack MERN Developer</h1>
           <h2>Connect with me to Digitalize your work using your Super Cool Personal Website !</h2>
-          <button><a href="https://drive.google.com/file/d/1aACTH6gBvLhLjcCxKFa9w3tdKXIrABNs/view?usp=share_link" className='resume' >Resume</a></button>
+          <a href="https://drive.google.com/file/d/1aACTH6gBvLhLjcCxKFa9w3tdKXIrABNs/view?usp=share_link"><button>Resume</button></a>
           </div>
           <div className="right">
          <Image
