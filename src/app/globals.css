@@ -24,7 +24,7 @@ body {
   justify-content: space-between;
 }
 .menu-link a {
-  color: darkblue;
+  color: #1A2238;
   font-weight: 700;
   text-decoration: none;
 }
@@ -55,7 +55,7 @@ background-size: cover;
 .left{
   width: 50vw;
   height: 100%;
-  color: darkblue;
+  color: #1A2238;
   /* background-color:red; */
   display: flex;
   flex-direction: column;
@@ -67,7 +67,7 @@ background-size: cover;
   font-size: 50px;
 }
 .left h2{
-  background-color: yellow;
+  background-color: #FF6A3D;
   padding: 10px;
   border-radius: 13px;
   margin-right: 2vmax;
@@ -81,43 +81,44 @@ border: none;
   outline: none;
   padding: 3px;
   color: #fff;
-  background-color: darkblue;
+  background-color: #1A2238;
   font-family: "Gilroy";
   margin-right: 40vmax;
 }
 .left button:hover{
   border: none;
   cursor: pointer;
-  background-color: yellow;
-  color: darkblue;
+  background-color: #FF6A3D;
+  color: #1A2238;
   transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
 }
 .menu-link a:hover{
   font-size: 30px;
   transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
-  color: yellow;
-  background-color: darkblue;
+  color: #FF6A3D;
+  background-color: #1A2238;
   padding:10px;
   border-radius: 8px;
 }
 .logo{
-  color: darkblue;
+  color: #1A2238;
 }
 .my-pic{
   width: 22vmax;
   height: 28vmax;
-  /* border: 6px solid darkblue; */
+  /* border: 6px solid #1A2238; */
   border-radius: 50%;
 }
 .my-name{
-  color: yellow;
+  color: #FF6A3D;
 }
 .resume{
   text-decoration: none;
-  color:yellow;
+  color:#FF6A3D;
 }
 .resume:hover{
-  color: darkblue ;
+  background-color: #FF6A3D;
+  color: #1A2238;
 }
 /* .Loader img{
   position: absolute;
@@ -154,7 +155,7 @@ border: none;
   height: 5vmax;
   border-radius:10px;
   font-weight: 900;
-  border: 1px solid darkblue;
+  border: 1px solid #1A2238;
   outline: none;
   padding: 3px;
   color: #fff;
@@ -163,17 +164,17 @@ border: none;
 
 }
   .my-name{
-    color: yellow;
+    color: #FF6A3D;
   }
   .left h1{
-    /* background-color: yellow; */
+    /* background-color: #FF6A3D; */
     width: 100vw;
     text-align: center;
     font-size: 45px;
   }
   .left h2{
     text-align: center;
-    background-color: yellow;
+    background-color: #FF6A3D;
     padding: 10px;
     border-radius: 13px;
   }
@@ -191,7 +192,7 @@ border: none;
   .responsive-menu {
     position: absolute;
     top: 12%; 
-    background-color: darkblue;
+    background-color: #1A2238;
     height: 40rem;
     width: 100vw;
     z-index: 1;
@@ -204,6 +205,6 @@ border: none;
     font-weight: 900;
   }
   .responsive-menu a{
-    color: yellow;
+    color: #FF6A3D;
   }
 }

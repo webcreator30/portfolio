@@ -100,14 +100,14 @@ a shared canvas with Socket.IO, ensuring real-time updates.
               Personal Portfolio Website using ReactJS/Next.js
             </h3>
             <p>
-           Lorem ipsum dolor sit amet elit. Nesciunt quo harum perspiciatis consequatur at, nam ex fugiat maxime labore veniam? Numquam fuga voluptate consectetur tenetur!
+          A Personalized Portfolio Single Page Website Made Using React and Next.js , Highlighting my Skills , Work Experience and Projects .
             </p>
             <button className={styles.github} >
-              <a className={styles.githuba}  href="">Github</a>
+              <a className={styles.githuba}  href="https://github.com/30saharsh/Portfolio-">Github</a>
             </button>
             <button  className={styles.live}  >
               {" "}
-              <a  className={styles.livea} href="">Live</a>{" "}
+              <a  className={styles.livea} href="https://portfolio-mu-azure-41.vercel.app/">Live</a>{" "}
             </button>
           </div>
         </div>

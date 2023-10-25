@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
- background-color: rgb(0, 0, 108);
+ background-color:#1A2238;
 
 }
 .main img{
@@ -24,8 +24,8 @@
     line-height: 30px;
 }
 .left h1{
-    color: darkblue;
-    background-color: yellow;
+    color: #1A2238;
+    background-color: #FF6A3D;
     width: fit-content;
     padding: 7px;
     border-radius: 4px;
@@ -38,7 +38,7 @@
 }
 .clgpic{
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 10px yellow;
+    box-shadow: 0px 0px 10px 10px #FF6A3D;
 }
 @media(max-width: 998px){
     .right{

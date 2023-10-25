@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 .main{
     width: 98.5vw;
     height: fit-content;
-    background-color: rgb(0, 0, 108);
+    background-color: #FF6A3D;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -12,9 +13,10 @@
 .card{
     width: 25vw;
     height: 35vw;
-    background-color: #dadada;
+    background-color: #1A2238;
     border-radius: 8px;
-    box-shadow: 0px 0px 20px 0px yellow;
+    box-shadow: 0px 0px 20px 0px #1A2238;
+    font-family: 'Oooh Baby', cursive;
 }
 .up{
     width: 100%;
@@ -25,7 +27,7 @@
     width: 100%;
     height: 35%;
 
-color: black;
+color: #fff;
 /* background-color: rebeccapurple; */
 
 }
@@ -44,19 +46,19 @@ color: black;
   border: none;
     outline: none;
     padding: 3px;
-    color: #fff;
-    background-color: darkblue;
+    color: #1A2238;
+    background-color: #FF6A3D;
     font-family: "Gilroy";
     text-decoration: none;
     margin: 1.6vmax;
 }
 .githuba{
     text-decoration: none;
-    color: yellow;
+    color: #1A2238;
 }
 .livea{
     text-decoration: none;
-    color: yellow;  
+    color: #1A2238;  
 }
 .live{
     width: 10vmax;
@@ -66,8 +68,8 @@ color: black;
   border: none;
     outline: none;
     padding: 3px;
-    color: #fff;
-    background-color: darkblue;
+    color: #1A2238;
+    background-color: #FF6A3D;
     font-family: "Gilroy";
     text-decoration: none;
     margin-right: 1vmax;
