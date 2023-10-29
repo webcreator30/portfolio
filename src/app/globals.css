@@ -10,7 +10,7 @@ body {
   height: 100%;
   font-family: "Gilroy";
 }
-.main-nav {
+.mainnav {
   width: 100%;
   height: 5rem;
   background-color:#dadada;
@@ -43,57 +43,6 @@ body {
 .hamburger-menu {
   display: none;
 }
-.main{
-  width:100%;
-  height:100vh;
-background-image: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=1772&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-background-position: start;
-background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.left{
-  width: 50vw;
-  height: 100%;
-  color: #1A2238;
-  /* background-color:red; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2vmax;
-}
-.left h1{
-  font-size: 50px;
-  font-family: 'Oooh Baby', cursive;
-}
-.left h2{
-  background-color: #FF6A3D;
-  padding: 10px;
-  border-radius: 13px;
-  margin-right: 2vmax;
-}
-.left button{
-  width: 10vmax;
-  height: 2.7vmax;
-  border-radius:10px;
-  font-weight: 900;
-border: none;
-  outline: none;
-  padding: 3px;
-  color: #FF6A3D;
-  background-color: #1A2238;
-  font-family: "Gilroy";
-  margin-right: 40vmax;
-}
-.left button:hover{
-  border: none;
-  cursor: pointer;
-  background-color: #FF6A3D;
-  color: #1A2238;
-  transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
-}
 .menu-link a:hover{
   font-size: 30px;
   transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
@@ -118,16 +67,7 @@ border: none;
 .my-name{
   color: #FF6A3D;
 }
-.left button a{
-  text-decoration: none;
-  color: #FF6A3D;
-}
-/* .Loader img{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50% , -50%);
-} */
+
 .Loader{
   width: 98vw;
   height: 100vh;
@@ -136,7 +76,7 @@ border: none;
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 998px) {
+@media(max-width: 998px){
   .Loader{
     width: 98vw;
     height: 100vh;
@@ -145,41 +85,16 @@ border: none;
     align-items: center;
     justify-content: center;
   }
-  .main{
-    display: flex;
-    flex-direction: column;
-  }
+
   .my-pic{
     display: none;
   }
-.left button{
-  width: 10vmax;
-  height: 5vmax;
-  border-radius:10px;
-  font-weight: 900;
-  border: 1px solid #1A2238;
-  outline: none;
-  padding: 3px;
-  color: #fff;
-  font-family: "Gilroy";
-  margin-left: 40vmax;
 
-}
   .my-name{
-    color: #FF6A3D;
+    color: yellow;
   }
-  .left h1{
-    /* background-color: #FF6A3D; */
-    width: 100vw;
-    text-align: center;
-    font-size: 45px;
-  }
-  .left h2{
-    text-align: center;
-    background-color: #FF6A3D;
-    padding: 10px;
-    border-radius: 13px;
-  }
+  
+
   .menu-link {
     display: none;
   }
@@ -205,9 +120,9 @@ border: none;
     gap: 25px;
     padding-top: 5vmax;
     font-weight: 900;
-    font-family: 'Oooh Baby', cursive;
   }
   .responsive-menu a{
-    color: #FF6A3D;
+    color:#FF6A3D;
+    font-family: 'Oooh Baby' , cursive;
   }
 }

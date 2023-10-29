@@ -19,7 +19,7 @@ setTimeout(() => {
     }
   return (
     <div>
-      <nav className='main-nav'>
+      <nav className='mainnav'>
       
         <div className="logo">
             <h2>MERN  <span className='develop' >DEVELOPER</span> </h2>
