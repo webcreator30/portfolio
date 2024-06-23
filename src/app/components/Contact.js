@@ -2,9 +2,12 @@ import React from 'react'
 import styles from './Contact.module.css';
 import Link from 'next/link';
 import Iframe from 'react-iframe';
+import NavBar from './NavBar';
 const Contact = () => {
   return (
+    <> <NavBar/>
     <div className={styles.main} >
+     
       <div className={styles.left}>
         <h1 className={styles.heading} >Social Links 👉</h1>
         <ul className={styles.social} >
@@ -27,6 +30,7 @@ const Contact = () => {
         position="relative"/>
       </div>
     </div>
+    </>
   )
 }
 

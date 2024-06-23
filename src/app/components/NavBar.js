@@ -22,7 +22,7 @@ setTimeout(() => {
       <nav className='mainnav'>
       
         <div className="logo">
-            <h2>MERN  <span className='develop' >DEVELOPER</span> </h2>
+            <h2>RapidWeb <span className="ak" >Services</span></h2>
         </div>
         <div className={ShowNavBar ? "menu-link responsive-menu":"menu-link"}>
             
@@ -37,10 +37,10 @@ setTimeout(() => {
         <div className="social-media">
             <ul className='social-media-dekstop'>
              
-                   <li><a href="https://www.linkedin.com/in/saharsh-shrivastava-71b8b2203/"><BsLinkedin className='linkedin' /></a></li> 
-       
+                   <li><a href="https://www.linkedin.com/in/saharsh-shrivastava-8697a9305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "><BsLinkedin className='linkedin' /></a></li> 
+                   {/* https://github.com/webcreator30 */}
                <li><a href="https://github.com/30saharsh"><BsGithub className='Github' /></a></li> 
-               <li><a href="https://github.com/30saharsh"><BsTwitter/></a></li> 
+               <li><a href="https://x.com/Saharsh30200"><BsTwitter/></a></li> 
             </ul>
         </div>
         <div className='hamburger-menu'>

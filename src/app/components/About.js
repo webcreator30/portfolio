@@ -1,40 +1,56 @@
 import React from 'react'
 import styles from './About.module.css'
 import Image from 'next/image'
+import NavBar from './NavBar'
 
 
 const About = () => {
   return (
-    <div>
-<div className={styles.main}>
-    <div className={styles.left}>
-   <h1>Saharsh Shrivastava</h1>
-   <h2 className={styles.headingtwo} >MERN Stack Developer</h2>
-<h2>Fresh Full Stack Developer adept at data flow management, passionate about learning and thriving in the corporate tech landscape.</h2>
-<p>Currently I am pursuing my Bachelor's Degree in Computer Science from Lakshmi Narain College of Technology and Science Bhopal (  Final year ) .</p>
-<p>I Have Worked as a Front-End Developer for Team
-"Imaginers" in a state level hackathon held at
-Bansal Group of Colleges Bhopal (MP) and
-were the category winners for finance and
-insurance category</p>
-<h3>Interests - </h3>
-<h4>1. Thinking Business Solutions Using my Skill Set</h4>
-<h4>2. Technical Research</h4>
-<h4>3. Explore New Technologies</h4>
-<h4>4. Developing Real World Solutions</h4>
-<p>I Have worked on many real world projects including various libraries , various user-interfaces and that's what motivate me to work more in this field , Connect with me for Collaborative Projects , Freelnace Projects.</p>
+    <>
+    <NavBar/>
+    <div className={styles.main}>
+      <div className={styles.up}>
+        <div className={styles.uptop}>
+          <h2>WHAT I DO</h2>
+        </div>
+        <div className={styles.updown}>
+          <div className={styles.card}>
+            <div className={styles.cardleft}>
+              <img src="/next.png" alt="" />
+            </div>
+            <div className={styles.cardright}>
+              <h3>Responsive Mobile</h3>
+              <p>Lavish CSS Template is designed by templatemo . Download , edit and use this layout</p>
+            </div>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.cardleft}>
+              <img src="/next.png" alt="" />
+            </div>
+            <div className={styles.cardright}>
+              <h3>Responsive Mobile</h3>
+              <p>Lavish CSS Template is designed by templatemo . Download , edit and use this layout</p>
+            </div>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.cardleft}>
+              <img src="/next.png" alt="" />
+            </div>
+            <div className={styles.cardright}>
+              <h3>Responsive Mobile</h3>
+              <p> by templatemo . Download , edit and use this layout</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.bottom}>
+        <h2>ABOUT SAHARSH</h2>
+        <h3>Full Stack Web Developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti minus earum ipsa perferendis <br /> adipisicing elit. Dolore sunt veritatis eos.</p>
+        <p>t consectetur adipisicing elit. Earum omnis iure asperiore Lorem ipsum dolor sit amet consectetur asda asa<br /> necessitatibus laboriosam mollitia!</p>
+      </div>
     </div>
-    <div className={styles.right}>
-        <Image
-        src="/college.jpg"
-        width={500}
-        height={500}
-        className={styles.clgpic}
-        />
-
-    </div>
-</div>
-    </div>
+    </>
   )
 }
 

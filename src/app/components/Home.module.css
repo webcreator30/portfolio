@@ -1,42 +1,56 @@
 .main{
     width: 100%;
     height: 90vh;
-    background-image: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=1772&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-color: black;
     background-position:start;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: #fff;
 }
 .left{
-    width: 50%;
+    width: 100%;
     height: 100%;
     /* background-color: purple; */
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: center;
-    gap: 3vh;
+    gap: 7vh;
     padding: 18px;
-    font-family: 'Oooh Baby' , cursive;
-    font-size: 25px;
+    font-size:32px;
 }
 .name{
-    color:#FF6A3D;
+    color:#2DD65F;
+}
+.digital{
+    color:#2DD65F; 
 }
 .developer{
+    margin-bottom: 30px;
     border-radius: 20px;
 }
+.heading{
+    line-height: 76px;
+    /* background-color: red; */
+    text-align: center;
+}
+.left p{
+    font-size: 22px;
+    line-height: 50px;
+}
 .resumebutton{
-    width: 110px;
+    width: 150px;
     border: none;
     outline: none;
     height: 35px;
     border-radius: 5px;
-    background-color: #FF6A3D;
-    font-weight: 800;
-    font-family: 'Oooh Baby' , cursive;
-    color: #1A2238;
+    background-color: #2DD65F;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+
 }
 @media(max-width:998px){
 
@@ -50,7 +64,7 @@
     align-items: center;
 }
 .heading{
-    background-color: #FF6A3D;
+    /* background-color: #FF6A3D; */
     padding: 9px;
     border-radius: 5px;
 }

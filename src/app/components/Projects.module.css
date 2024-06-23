@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 .main{
     width: 98.5vw;
     height: fit-content;
-    background-color: #FF6A3D;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -10,106 +11,220 @@
     padding: 3vmax;
    gap: 10vmax;
 }
-.card{
-    width: 25vw;
-    height: 35vw;
-    background-color: #1A2238;
-    border-radius: 8px;
-    box-shadow: 0px 0px 20px 0px #1A2238;
-    font-family: 'Oooh Baby', cursive;
+.container {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.25);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);  
+  padding: 38px;  
+  filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  width: 35%;
+  
 }
-.up{
-    width: 100%;
-    height: 50%;
-    padding: 12px;
-}
-.down{
-    width: 100%;
-    height: 35%;
 
-color: #fff;
-/* background-color: rebeccapurple; */
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner_image {
+  background-image: url(/rc.png);
+  background-position: center;
+  background-size: contain;
+  height: 170px;
+  width: 370px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
+}
+/* /expense_tracker.jpg */
+.banner_image1 {
+    background-image: url(/expense.png );
+    background-position: center;
+    background-size: contain;
+    height: 170px;
+    width: 370px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+  }
+  .banner_image2 {
+    background-image: url(/sm.png );
+    background-position: center;
+    background-size: contain;
+    height: 170px;
+    width: 370px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+  }
+  .banner_image3 {
+    background-image: url(/ad.png );
+    background-position: center;
+    background-size: contain;
+    height: 170px;
+    width: 370px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+  }
+  .banner_image4 {
+    background-image: url(/insurance.png );
+    background-position: center;
+    background-size: contain;
+    height: 170px;
+    width: 370px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+  }
+  .banner_image5 {
+    background-image: url(/cs.png );
+    background-position: center;
+    background-size: contain;
+    height: 170px;
+    width: 370px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+  }
+.wrapper h1{
+  font-family: 'Righteous', sans-serif;
+  color: rgba(255,255,255,0.98);
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin:20px 0px;
+}
+
+.wrapper p {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 0.6rem;
+  line-height: 170%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button_wrapper{
+  margin-top: 18px;
+}
+
+.btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-size: 0.8rem;  
+  letter-spacing: 2px;  
+  cursor: pointer;
+  background-color: #2DD65F;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+.outline {
+  background: transparent;
+  color: rgba(0, 212, 255, 0.9);
+  border: 1px solid rgba(0, 212, 255, 0.6);
+  transition: all .3s ease;
+  
+}
+
+.outline:hover{
+  transform: scale(1.125);
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.9);
+  transition: all .3s ease;  
 
 }
-.down p{
-    margin-top: 1vmax;
-    text-align: center;
+
+.fill {
+  background: rgba(0, 212, 255, 0.9);
+  color: rgba(255,255,255,0.95);
+  filter: drop-shadow(0);
+  font-weight: bold;
+  transition: all .3s ease; 
 }
-.cardheading{
-    text-align: center;
+
+.fill:hover{
+  transform: scale(1.125);  
+  border-color: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
+  transition: all .3s ease;    
 }
-.github{
-    width: 10vmax;
-    height: 2.7vmax;
-    border-radius:10px;
-    font-weight: 900;
-  border: none;
-    outline: none;
-    padding: 3px;
-    color: #1A2238;
-    background-color: #FF6A3D;
-    font-family: "Gilroy";
-    text-decoration: none;
-    margin: 1.6vmax;
+@media(max-width:998px){
+.main{
+ width: 100%;
+ height: fit-content;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column; 
 }
-.githuba{
-    text-decoration: none;
-    color: #1A2238;
+.container{
+  width: 80%;
+  height: fit-content;
 }
-.livea{
-    text-decoration: none;
-    color: #1A2238;  
+.banner_image {
+  background-image: url(/rc.png);
+  background-position: center;
+  background-size: contain;
+  height: 110px;
+  width: 240px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
 }
-.live{
-    width: 10vmax;
-    height: 2.7vmax;
-    border-radius:10px;
-    font-weight: 900;
-  border: none;
-    outline: none;
-    padding: 3px;
-    color: #1A2238;
-    background-color: #FF6A3D;
-    font-family: "Gilroy";
-    text-decoration: none;
-    margin-right: 1vmax;
+.banner_image1 {
+  background-image: url(/expense.png );
+  background-position: center;
+  background-size: contain;
+  height: 110px;
+  width: 240px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
 }
-@media(max-width: 998px){
-    .main{
-        display: flex;
-        flex-direction: column;
-        padding: 12px;
-        width: 100%;
-    }
-    .cardheading{
-        text-align: left;
-    }
-    .down p{
-        text-align: left;
-    }
-    .card{
-        width: 90vw;
-        height: 65vh;
-        padding: 0px 15px;
-        box-shadow: none;
-    }
-    .down{
-        /* background-color: red; */
-        height: 40%;
-        margin-top: 5vmax;
-    }
-    .github{
-        padding: 2px;
-    }
-    .live{
-        padding: 2px;
-    }
-    .githuba{
-       
-        color: #1A2238;
-    }
-    .livea{
-        color: #1A2238;
-    }
-       
+.banner_image2 {
+  background-image: url(/sm.png );
+  background-position: center;
+  background-size: contain;
+  height: 110px;
+  width: 240px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
+}
+.banner_image3 {
+  background-image: url(/ad.png );
+  background-position: center;
+  background-size: contain;
+  height: 110px;
+  width: 240px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
+}
+.banner_image4 {
+  background-image: url(/insurance.png );
+  background-position: center;
+  background-size: contain;
+  height: 110px;
+  width: 240px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
+}
+.banner_image5 {
+  background-image: url(/cs.png );
+  background-position: center;
+  background-size: contain;
+  height: 110px;
+  width: 240px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
+}
 }
