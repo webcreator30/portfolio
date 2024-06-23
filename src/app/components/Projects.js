@@ -73,7 +73,7 @@ const Projects = () => {
      service providing firm .</p>
   </div>
   <div className={styles.button_wrapper}> 
-  <button className={styles.btn}>VIEW</button>
+ <a href="https://webcreator30.github.io/courier_service_company_website/"><button className={styles.btn}>VIEW</button></a>
   </div>
     </div>
 </div>
